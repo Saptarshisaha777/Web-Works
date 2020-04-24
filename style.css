@@ -1,0 +1,79 @@
+body{
+  background-color: rgba(163, 98, 163, 0.73)
+}
+.Series_head1,.Series_head2{
+  text-align: center;
+  background-color: purple;
+  font-size: 20px;
+
+  letter-spacing: normal;
+
+
+}
+.Series_head1{
+  font-weight: bold;
+}
+
+.menu{
+  height: 80%;
+  background-color: white
+}
+.li{
+  background-color: green;
+  font-size: 150%;
+  font-style: oblique;
+  text-align: center;
+  text-indent: auto;
+
+  font-family: fantasy;
+
+
+
+}
+
+.l1{
+  float: right;
+  padding: 10px;
+  margin: 10px;
+}
+.l2{
+  float: left;
+  padding: 10px;
+}
+
+.l1:hover,.l2:hover{
+  background-color: orange;
+  padding: 10px;
+}
+
+.floatLeft{
+  height: 20%;
+  width: 50%;
+  float: left;
+  padding: 10px;
+  border-radius: 30px;
+
+}
+.floatRight{
+  height: 20%;
+  width: 50%;
+  float: right;
+  padding: 10px;
+  border-radius: 30px;
+
+}
+footer{
+  position: sticky;
+  text-align: center;
+  border-color: black;
+  border-width: thick;
+  background-color: purple;
+  width: 100%;
+  height: 70px;
+  flex-shrink: 0;
+
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+  }
