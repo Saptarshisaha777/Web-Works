@@ -1,0 +1,79 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgba(163, 98, 163, 0.73)
+}
+.Series_head1,.Series_head2{
+  text-align: center;
+  background-color: purple;
+  font-size: 20px;
+
+  letter-spacing: normal;
+
+
+}
+.Series_head1{
+  font-weight: bold;
+}
+nav{
+flex: auto;
+width: 100%;
+height: 50px;
+background-color: rgba(0,0,0,0.5);
+}
+.leftmenu {
+    width: 20%;
+    line-height: 50px;
+    float: left;
+  }
+.rightmenu {
+    width: 50%;
+    height: 50px;
+    float: right;
+  }
+  .leftmenu h4 {
+      padding-left: 70px;
+      font-weight: bold;
+      color: white;
+      font-size: 22px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .rightmenu ul {
+    margin-left: 200px;
+}
+
+  .rightmenu ul li, a{
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: auto;
+    color: white;
+    font-weight: bold;
+    line-height: 50px;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+.main_bod{
+  background-image: url("univ.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+
+}
+.box h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: white;
+    color:white;
+
+
+    line-height:  100px;
+    background-color: rgba(0,0,0,0.5);
+
+
+}
